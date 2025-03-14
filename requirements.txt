@@ -4,5 +4,9 @@ numpy
 scikit-learn
 seaborn
 matplotlib
+pymongo
+pymongo[srv]==3.9
+certifi
+
 
 #-e .
