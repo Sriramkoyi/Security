@@ -1,0 +1,9 @@
+[ 2025-03-24 17:28:00,272 ] 15 root -INFO-Initiate the data ingestion
+[ 2025-03-24 17:28:02,542 ] 53 root -INFO-Performed Traintest split
+[ 2025-03-24 17:28:02,543 ] 56 root -INFO-Exporting
+[ 2025-03-24 17:28:02,584 ] 59 root -INFO-Exported
+[ 2025-03-24 17:28:02,585 ] 17 root -INFO-Data Initiation Completed
+[ 2025-03-24 17:28:02,588 ] 20 root -INFO-Initiate the data Validation
+[ 2025-03-24 17:28:02,635 ] 28 root -INFO-Data read successfully from Artifacts\03_24_2025_17_27_59\data_ingestion\ingested\train.csv
+[ 2025-03-24 17:28:02,679 ] 28 root -INFO-Data read successfully from Artifacts\03_24_2025_17_27_59\data_ingestion\ingested\test.csv
+[ 2025-03-24 17:28:02,681 ] 35 root -INFO-Required number of columns:2

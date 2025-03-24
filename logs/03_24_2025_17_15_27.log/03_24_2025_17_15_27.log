@@ -1,0 +1,10 @@
+[ 2025-03-24 17:15:29,276 ] 15 root -INFO-Initiate the data ingestion
+[ 2025-03-24 17:15:31,298 ] 53 root -INFO-Performed Traintest split
+[ 2025-03-24 17:15:31,299 ] 56 root -INFO-Exporting
+[ 2025-03-24 17:15:31,348 ] 59 root -INFO-Exported
+[ 2025-03-24 17:15:31,348 ] 17 root -INFO-Data Initiation Completed
+[ 2025-03-24 17:15:31,354 ] 20 root -INFO-Initiate the data Validation
+[ 2025-03-24 17:15:31,428 ] 32 root -INFO-Required number of columns:2
+[ 2025-03-24 17:15:31,428 ] 33 root -INFO-Data from columns:31
+[ 2025-03-24 17:15:31,428 ] 32 root -INFO-Required number of columns:2
+[ 2025-03-24 17:15:31,428 ] 33 root -INFO-Data from columns:31

@@ -1,0 +1,5 @@
+[ 2025-03-24 15:56:17,766 ] 13 root -INFO-Initiate the data ingestion
+[ 2025-03-24 15:56:19,825 ] 53 root -INFO-Performed Traintest split
+[ 2025-03-24 15:56:19,826 ] 56 root -INFO-Exporting
+[ 2025-03-24 15:56:19,872 ] 59 root -INFO-Exported
+[ 2025-03-24 15:56:19,873 ] 15 root -INFO-Data initiation completed
