@@ -21,7 +21,7 @@ class DataValidation:
     @staticmethod
     def read_data(file_path)->pd.DataFrame:
         try:
-            df = pd.read_csv(file_path, na_values=["?", "NaN", "null"], keep_default_na=True)
+            df = pd.read_csv(file_path,header=0)
             return df
         except Exception as e:
             raise NetworkSecurityException(e,sys)
@@ -102,6 +102,7 @@ class DataValidation:
             return data_validation_artifact
         except Exception as e:
             raise NetworkSecurityException(e,sys)
+    
 
 
             
