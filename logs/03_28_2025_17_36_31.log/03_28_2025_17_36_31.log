@@ -1,0 +1,6 @@
+[ 2025-03-28 17:36:40,274 ] 1025 httpx -INFO-HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-03-28 17:36:40,286 ] 107 dagshub -INFO-Accessing as sriramkoyi15
+[ 2025-03-28 17:36:41,604 ] 1025 httpx -INFO-HTTP Request: GET https://dagshub.com/api/v1/repos/sriramkoyi15/Security "HTTP/1.1 200 OK"
+[ 2025-03-28 17:36:42,723 ] 1025 httpx -INFO-HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-03-28 17:36:42,726 ] 107 dagshub -INFO-Initialized MLflow to track repo "sriramkoyi15/Security"
+[ 2025-03-28 17:36:42,727 ] 107 dagshub -INFO-Repository sriramkoyi15/Security initialized!
