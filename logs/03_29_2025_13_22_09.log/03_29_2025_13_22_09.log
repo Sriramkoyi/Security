@@ -1,0 +1,28 @@
+[ 2025-03-29 13:22:12,061 ] 1025 httpx -INFO-HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-03-29 13:22:12,064 ] 107 dagshub -INFO-Accessing as sriramkoyi15
+[ 2025-03-29 13:22:12,646 ] 1025 httpx -INFO-HTTP Request: GET https://dagshub.com/api/v1/repos/sriramkoyi15/Security "HTTP/1.1 200 OK"
+[ 2025-03-29 13:22:13,193 ] 1025 httpx -INFO-HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-03-29 13:22:13,194 ] 107 dagshub -INFO-Initialized MLflow to track repo "sriramkoyi15/Security"
+[ 2025-03-29 13:22:13,195 ] 107 dagshub -INFO-Repository sriramkoyi15/Security initialized!
+[ 2025-03-29 13:23:47,204 ] 25 root -INFO-Data ingestion started
+[ 2025-03-29 13:23:52,263 ] 53 root -INFO-Performed Traintest split
+[ 2025-03-29 13:23:52,264 ] 56 root -INFO-Exporting
+[ 2025-03-29 13:23:52,441 ] 59 root -INFO-Exported
+[ 2025-03-29 13:23:52,443 ] 28 root -INFO-Data ingestion completed,DataIngestionArtifact(trained_file_path='Artifacts\\03_29_2025_13_22_09\\data_ingestion\\ingested\\train.csv', test_file_path='Artifacts\\03_29_2025_13_22_09\\data_ingestion\\ingested\\test.csv')
+[ 2025-03-29 13:23:52,495 ] 37 root -INFO-Data Validation started
+[ 2025-03-29 13:23:52,625 ] 32 root -INFO-Required number of columns:2
+[ 2025-03-29 13:23:52,626 ] 33 root -INFO-Data from columns:31
+[ 2025-03-29 13:23:52,626 ] 32 root -INFO-Required number of columns:2
+[ 2025-03-29 13:23:52,626 ] 33 root -INFO-Data from columns:31
+[ 2025-03-29 13:23:53,197 ] 46 root -INFO-Data Transformation started
+[ 2025-03-29 13:23:53,198 ] 41 root -INFO-Data transformation started
+[ 2025-03-29 13:23:53,313 ] 41 root -INFO-Entered the save_object method of MainUtils class
+[ 2025-03-29 13:23:53,321 ] 45 root -INFO-Exited the save_object method of MainUtils class
+[ 2025-03-29 13:23:53,321 ] 41 root -INFO-Entered the save_object method of MainUtils class
+[ 2025-03-29 13:23:53,327 ] 45 root -INFO-Exited the save_object method of MainUtils class
+[ 2025-03-29 13:23:53,327 ] 55 root -INFO-Model training started
+[ 2025-03-29 13:26:34,244 ] 41 root -INFO-Entered the save_object method of MainUtils class
+[ 2025-03-29 13:26:34,245 ] 45 root -INFO-Exited the save_object method of MainUtils class
+[ 2025-03-29 13:26:34,245 ] 41 root -INFO-Entered the save_object method of MainUtils class
+[ 2025-03-29 13:26:34,264 ] 45 root -INFO-Exited the save_object method of MainUtils class
+[ 2025-03-29 13:26:34,265 ] 120 root -INFO-Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\03_29_2025_13_22_09\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9907904058293695, precision_score=0.9894885789367294, recall_score=0.9920956627482772), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.978481526593585, precision_score=0.9717741935483871, recall_score=0.9852820932134096))
