@@ -86,6 +86,8 @@ class TrainingPipeline:
         except Exception as e:
             print("Error in trainingpipeline",e)
             raise NetworkSecurityException(e,sys)
+    def display():
+        print("aws")
         
 
             
