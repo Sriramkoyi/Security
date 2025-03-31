@@ -7,6 +7,10 @@ matplotlib
 pymongo
 pymongo[srv]==3.9
 certifi
+pyyaml
+dill
+mlflow
+dagshub
 
 
 #-e .
